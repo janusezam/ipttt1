@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const addStudentButton = document.getElementById('addStudentButton');
     const tableContent = document.getElementById('table-content');
-    // student code functionss
+    // Updated student addition functions
     function addStudent() {
         const idNumber = document.getElementById('idNumber').value.trim();
         const firstName = document.getElementById('firstName').value.trim();
