@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     addStudentButton.addEventListener('click', addStudent);
 });
 
-// Subject Functions
+// Updated Subject Functions
 function addSubject() {
     const subjectCode = document.getElementById('subjectCode').value.trim();
     const subjectName = document.getElementById('subjectName').value.trim();
